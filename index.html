@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="flex-center">
+    <main class="score-card flex-center">
+      <div class="score-panel flex-center">
+        <h1>HOME</h1>
+        <h2 class="score-display" id="home-score">0</h2>
+        <div class="score-btn-wrapper">
+          <button data-team="home" data-points="1" class="score-btn">+1</button>
+          <button data-team="home" data-points="2" class="score-btn">+2</button>
+          <button data-team="home" data-points="3" class="score-btn">+3</button>
+        </div>
+      </div>
+
+      <div class="score-panel flex-center">
+        <h1>AWAY</h1>
+        <h2 class="score-display" id="away-score">0</h2>
+        <div class="score-btn-wrapper">
+          <button data-team="away" data-points="1" class="score-btn">+1</button>
+          <button data-team="away" data-points="2" class="score-btn">+2</button>
+          <button data-team="away" data-points="3" class="score-btn">+3</button>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
