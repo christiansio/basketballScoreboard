@@ -18,9 +18,9 @@ function updateScore(team, score) {
   scoreDisplay[team].textContent = scores[team];
 }
 
-console.log(document.querySelectorAll("#score-btn"));
+console.log(document.querySelectorAll(".score-btn"));
 
-document.querySelectorAll("#score-btn").forEach((button) => {
+document.querySelectorAll(".score-btn").forEach((button) => {
   button.addEventListener("click", () => {
     const team = button.dataset.team;
     const points = Number(button.dataset.points);
